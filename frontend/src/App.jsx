@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import { Container } from 'react-bootstrap';
+import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
 import HomeScreen from './Screens/HomeScreen';
 
@@ -9,9 +10,7 @@ const App = () => {
             <Header />
             <main className="py-3">
                 <Container>
-                    <HomeScreen>
-                        
-                    </HomeScreen>
+                    <Outlet />
                 </Container>
             </main>     
             <Footer/>                                                                            
