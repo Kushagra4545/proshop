@@ -1,0 +1,30 @@
+{
+  "name": "proshop",
+  "version": "2.0.0",
+  "description": "eCommerce",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushagra4545/proshop.git"
+  },
+  "author": "kushagra patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kushagra4545/proshop/issues"
+  },
+  "homepage": "https://github.com/Kushagra4545/proshop#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "dotenv": "^17.4.2",
+    "nodemon": "^3.1.14"
+  }
+}
